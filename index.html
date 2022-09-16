@@ -23,7 +23,12 @@
           </nav>
     </header>
     <main>
-
+        <section class="text-left position-relative" id="hero">
+            <h1 class="font-titles">Mejora tu producción con AgriPure</h1>
+            <p class="paragraph-hero">AgriPure es una nueva tecnología encargada de analizar las condiciones de su terreno agricola, clima y plantas.</p>
+            <button class="btn btn-success me-2" type="button">Comienza ya</button>
+            <button class="btn btn-outline-light me-2" type="button">Conoce más</button>
+        </section>
       <section class="container col-xxl-8 px-4 py-5" id="indice-vegetacion">
         <h1 class="display-10 lh-1 mb-3 text-center second-titles">Tecnología avanzada y facil de usar</h1>
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -59,10 +64,43 @@
             </div>
         </div>
     </section>
+    
     <section class="text-left position-relative" id="cultivo">
         <h1 class="font-titles">Empieza a mejorar tu producción</h1>
         <p class="paragraph-hero">Con la ayuda de la tecnología, obtendras resultados excepcionales</p>
         <button class="btn btn-success me-2" type="button">Comienza ya</button>
+        
+    <section id="formulario">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5 mx-4">
+            <div class="col-12 col-sm-8 col-lg-6 mt-1">
+                <h3 class="second-titles">¿Quieres conocer más acerca de AgriPure y sus beneficios?</h3>
+                    <p class="lead">
+                    Completa el siguiente formulario con tus datos y consultas. Nos pondremos en contacto dentro de las siguientes 24 horas.</p>
+            </div>
+            <div class="col-sm-6">
+                <form>
+                    <div class="row mb-3">
+                        <div class="col">
+                          <label for="nombreInput" class="form-label">Nombre</label>
+                          <input type="text" class="form-control" id="nombreInput">
+                        </div>
+                        <div class="col">
+                            <label for="apellidoInput" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="apellidoInput">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="correoInput" class="form-label">Correo Electronico</label>
+                        <input type="email" class="form-control" id="correoInput" placeholder="name@gmail.com">
+                    </div>
+                      <div class="mb-3">
+                        <label for="comentarioInput" class="form-label">Comentario</label>
+                        <textarea class="form-control" id="comentarioInput" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+        </div>
     </section>
     </main>
     <footer class="container-fluid">
